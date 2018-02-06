@@ -1,0 +1,26 @@
+{
+  "name": "metadata-poc",
+  "version": "1.0.0",
+  "description":
+    "DreamHouse is a sample application that demonstrates the unique value proposition of the Salesforce App Cloud for building Employee Productivity and Customer Engagement apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sfdx:push": "gulp build && sfdx force:source:push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forcedotcom/sfdx-dreamhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forcedotcom/sfdx-dreamhouse/issues"
+  },
+  "homepage": "https://github.com/forcedotcom/sfdx-dreamhouse#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sfdx-metadata": "0.0.1"
+  }
+}
